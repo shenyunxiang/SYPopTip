@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094E368620FC937900FA7167 /* SYPopTip+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E368120FC937900FA7167 /* SYPopTip+Draw.m */; };
+		094E368720FC937900FA7167 /* SYPopTip+Transitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E368320FC937900FA7167 /* SYPopTip+Transitions.m */; };
+		094E368820FC937900FA7167 /* SYPopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E368520FC937900FA7167 /* SYPopTip.m */; };
 		094F295F20EF372500772723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F295E20EF372500772723 /* AppDelegate.m */; };
 		094F296220EF372500772723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F296120EF372500772723 /* ViewController.m */; };
 		094F296520EF372500772723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F296320EF372500772723 /* Main.storyboard */; };
@@ -15,9 +18,6 @@
 		094F296D20EF372500772723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F296C20EF372500772723 /* main.m */; };
 		094F297720EF372500772723 /* SYPopTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F297620EF372500772723 /* SYPopTipTests.m */; };
 		094F298220EF372500772723 /* SYPopTipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F298120EF372500772723 /* SYPopTipUITests.m */; };
-		094F299220EF373D00772723 /* SYPopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F299120EF373D00772723 /* SYPopTip.m */; };
-		094F299520EF683100772723 /* SYPopTip+Transitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F299420EF683100772723 /* SYPopTip+Transitions.m */; };
-		09E9749820F34D6500B4E98D /* SYPopTip+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E9749720F34D6500B4E98D /* SYPopTip+Draw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		094E368020FC937900FA7167 /* SYPopTip+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SYPopTip+Draw.h"; sourceTree = "<group>"; };
+		094E368120FC937900FA7167 /* SYPopTip+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SYPopTip+Draw.m"; sourceTree = "<group>"; };
+		094E368220FC937900FA7167 /* SYPopTip+Transitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SYPopTip+Transitions.h"; sourceTree = "<group>"; };
+		094E368320FC937900FA7167 /* SYPopTip+Transitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SYPopTip+Transitions.m"; sourceTree = "<group>"; };
+		094E368420FC937900FA7167 /* SYPopTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPopTip.h; sourceTree = "<group>"; };
+		094E368520FC937900FA7167 /* SYPopTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPopTip.m; sourceTree = "<group>"; };
 		094F295A20EF372500772723 /* SYPopTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYPopTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		094F295D20EF372500772723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		094F295E20EF372500772723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,12 +60,6 @@
 		094F297D20EF372500772723 /* SYPopTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPopTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		094F298120EF372500772723 /* SYPopTipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPopTipUITests.m; sourceTree = "<group>"; };
 		094F298320EF372500772723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		094F299020EF373D00772723 /* SYPopTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPopTip.h; sourceTree = "<group>"; };
-		094F299120EF373D00772723 /* SYPopTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPopTip.m; sourceTree = "<group>"; };
-		094F299320EF683100772723 /* SYPopTip+Transitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYPopTip+Transitions.h"; sourceTree = "<group>"; };
-		094F299420EF683100772723 /* SYPopTip+Transitions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SYPopTip+Transitions.m"; sourceTree = "<group>"; };
-		09E9749620F34D6500B4E98D /* SYPopTip+Draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYPopTip+Draw.h"; sourceTree = "<group>"; };
-		09E9749720F34D6500B4E98D /* SYPopTip+Draw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SYPopTip+Draw.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094E367F20FC937900FA7167 /* SYPopTip */ = {
+			isa = PBXGroup;
+			children = (
+				094E368020FC937900FA7167 /* SYPopTip+Draw.h */,
+				094E368120FC937900FA7167 /* SYPopTip+Draw.m */,
+				094E368220FC937900FA7167 /* SYPopTip+Transitions.h */,
+				094E368320FC937900FA7167 /* SYPopTip+Transitions.m */,
+				094E368420FC937900FA7167 /* SYPopTip.h */,
+				094E368520FC937900FA7167 /* SYPopTip.m */,
+			);
+			name = SYPopTip;
+			path = ../../../SYPopTip;
+			sourceTree = "<group>";
+		};
 		094F295120EF372500772723 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +124,7 @@
 		094F295C20EF372500772723 /* SYPopTip */ = {
 			isa = PBXGroup;
 			children = (
-				094F298F20EF372B00772723 /* SYPopTip */,
+				094E367F20FC937900FA7167 /* SYPopTip */,
 				094F295D20EF372500772723 /* AppDelegate.h */,
 				094F295E20EF372500772723 /* AppDelegate.m */,
 				094F296020EF372500772723 /* ViewController.h */,
@@ -140,19 +154,6 @@
 				094F298320EF372500772723 /* Info.plist */,
 			);
 			path = SYPopTipUITests;
-			sourceTree = "<group>";
-		};
-		094F298F20EF372B00772723 /* SYPopTip */ = {
-			isa = PBXGroup;
-			children = (
-				094F299020EF373D00772723 /* SYPopTip.h */,
-				094F299120EF373D00772723 /* SYPopTip.m */,
-				094F299320EF683100772723 /* SYPopTip+Transitions.h */,
-				094F299420EF683100772723 /* SYPopTip+Transitions.m */,
-				09E9749620F34D6500B4E98D /* SYPopTip+Draw.h */,
-				09E9749720F34D6500B4E98D /* SYPopTip+Draw.m */,
-			);
-			path = SYPopTip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,11 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				094F296220EF372500772723 /* ViewController.m in Sources */,
-				094F299220EF373D00772723 /* SYPopTip.m in Sources */,
 				094F296D20EF372500772723 /* main.m in Sources */,
 				094F295F20EF372500772723 /* AppDelegate.m in Sources */,
-				094F299520EF683100772723 /* SYPopTip+Transitions.m in Sources */,
-				09E9749820F34D6500B4E98D /* SYPopTip+Draw.m in Sources */,
+				094E368620FC937900FA7167 /* SYPopTip+Draw.m in Sources */,
+				094E368720FC937900FA7167 /* SYPopTip+Transitions.m in Sources */,
+				094E368820FC937900FA7167 /* SYPopTip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
