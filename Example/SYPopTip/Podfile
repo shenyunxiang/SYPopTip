@@ -5,8 +5,8 @@ target 'SYPopTip' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-   pod 'SYPopTip', :path => '../../'
-
+#   pod 'SYPopTip', :path => '../../'
+   pod 'SYPopTip'
   target 'SYPopTipTests' do
     inherit! :search_paths
     # Pods for testing
