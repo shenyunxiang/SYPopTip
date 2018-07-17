@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SYPopTip.h"
+#import <SYPopTip.h>
 @interface ViewController ()
 
 @end

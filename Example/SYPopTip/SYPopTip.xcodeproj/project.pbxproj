@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		094E368620FC937900FA7167 /* SYPopTip+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E368120FC937900FA7167 /* SYPopTip+Draw.m */; };
-		094E368720FC937900FA7167 /* SYPopTip+Transitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E368320FC937900FA7167 /* SYPopTip+Transitions.m */; };
-		094E368820FC937900FA7167 /* SYPopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 094E368520FC937900FA7167 /* SYPopTip.m */; };
 		094F295F20EF372500772723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F295E20EF372500772723 /* AppDelegate.m */; };
 		094F296220EF372500772723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F296120EF372500772723 /* ViewController.m */; };
 		094F296520EF372500772723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F296320EF372500772723 /* Main.storyboard */; };
@@ -18,6 +15,9 @@
 		094F296D20EF372500772723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F296C20EF372500772723 /* main.m */; };
 		094F297720EF372500772723 /* SYPopTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F297620EF372500772723 /* SYPopTipTests.m */; };
 		094F298220EF372500772723 /* SYPopTipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F298120EF372500772723 /* SYPopTipUITests.m */; };
+		8BFA6D935687290A78A8637C /* libPods-SYPopTip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC3FD9447893F906D763074 /* libPods-SYPopTip.a */; };
+		D7EC67E3E8107285FEE8E803 /* libPods-SYPopTipUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E7551E62E4613BF60ABB27 /* libPods-SYPopTipUITests.a */; };
+		F6EF79848777756AD5A35BFF /* libPods-SYPopTipTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BA8267B0E33626CE9103A2 /* libPods-SYPopTipTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		094E368020FC937900FA7167 /* SYPopTip+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SYPopTip+Draw.h"; sourceTree = "<group>"; };
-		094E368120FC937900FA7167 /* SYPopTip+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SYPopTip+Draw.m"; sourceTree = "<group>"; };
-		094E368220FC937900FA7167 /* SYPopTip+Transitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SYPopTip+Transitions.h"; sourceTree = "<group>"; };
-		094E368320FC937900FA7167 /* SYPopTip+Transitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SYPopTip+Transitions.m"; sourceTree = "<group>"; };
-		094E368420FC937900FA7167 /* SYPopTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYPopTip.h; sourceTree = "<group>"; };
-		094E368520FC937900FA7167 /* SYPopTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYPopTip.m; sourceTree = "<group>"; };
 		094F295A20EF372500772723 /* SYPopTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYPopTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		094F295D20EF372500772723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		094F295E20EF372500772723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +54,15 @@
 		094F297D20EF372500772723 /* SYPopTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYPopTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		094F298120EF372500772723 /* SYPopTipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYPopTipUITests.m; sourceTree = "<group>"; };
 		094F298320EF372500772723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398C6301EC264E7C1712651F /* Pods-SYPopTipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopTipTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopTipTests/Pods-SYPopTipTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AC3FD9447893F906D763074 /* libPods-SYPopTip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPopTip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C699345FD2EA87A1AA4E86 /* Pods-SYPopTipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopTipUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopTipUITests/Pods-SYPopTipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		887834D4ACC1380B770CC563 /* Pods-SYPopTip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopTip.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopTip/Pods-SYPopTip.release.xcconfig"; sourceTree = "<group>"; };
+		90E7551E62E4613BF60ABB27 /* libPods-SYPopTipUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPopTipUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F25908DE74C66AC2109FACF /* Pods-SYPopTipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopTipUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopTipUITests/Pods-SYPopTipUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0BA8267B0E33626CE9103A2 /* libPods-SYPopTipTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYPopTipTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD909E276988250579C1B80 /* Pods-SYPopTip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopTip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopTip/Pods-SYPopTip.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7DCE8513BD3A9384929364 /* Pods-SYPopTipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYPopTipTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYPopTipTests/Pods-SYPopTipTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFA6D935687290A78A8637C /* libPods-SYPopTip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EF79848777756AD5A35BFF /* libPods-SYPopTipTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,26 +86,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7EC67E3E8107285FEE8E803 /* libPods-SYPopTipUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		094E367F20FC937900FA7167 /* SYPopTip */ = {
-			isa = PBXGroup;
-			children = (
-				094E368020FC937900FA7167 /* SYPopTip+Draw.h */,
-				094E368120FC937900FA7167 /* SYPopTip+Draw.m */,
-				094E368220FC937900FA7167 /* SYPopTip+Transitions.h */,
-				094E368320FC937900FA7167 /* SYPopTip+Transitions.m */,
-				094E368420FC937900FA7167 /* SYPopTip.h */,
-				094E368520FC937900FA7167 /* SYPopTip.m */,
-			);
-			name = SYPopTip;
-			path = ../../../SYPopTip;
-			sourceTree = "<group>";
-		};
 		094F295120EF372500772723 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +100,8 @@
 				094F297520EF372500772723 /* SYPopTipTests */,
 				094F298020EF372500772723 /* SYPopTipUITests */,
 				094F295B20EF372500772723 /* Products */,
+				50DA36BD28DAF00B239628D0 /* Pods */,
+				F11586612432C0AD53D63612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +118,6 @@
 		094F295C20EF372500772723 /* SYPopTip */ = {
 			isa = PBXGroup;
 			children = (
-				094E367F20FC937900FA7167 /* SYPopTip */,
 				094F295D20EF372500772723 /* AppDelegate.h */,
 				094F295E20EF372500772723 /* AppDelegate.m */,
 				094F296020EF372500772723 /* ViewController.h */,
@@ -156,6 +149,29 @@
 			path = SYPopTipUITests;
 			sourceTree = "<group>";
 		};
+		50DA36BD28DAF00B239628D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD909E276988250579C1B80 /* Pods-SYPopTip.debug.xcconfig */,
+				887834D4ACC1380B770CC563 /* Pods-SYPopTip.release.xcconfig */,
+				EC7DCE8513BD3A9384929364 /* Pods-SYPopTipTests.debug.xcconfig */,
+				398C6301EC264E7C1712651F /* Pods-SYPopTipTests.release.xcconfig */,
+				9F25908DE74C66AC2109FACF /* Pods-SYPopTipUITests.debug.xcconfig */,
+				63C699345FD2EA87A1AA4E86 /* Pods-SYPopTipUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F11586612432C0AD53D63612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AC3FD9447893F906D763074 /* libPods-SYPopTip.a */,
+				A0BA8267B0E33626CE9103A2 /* libPods-SYPopTipTests.a */,
+				90E7551E62E4613BF60ABB27 /* libPods-SYPopTipUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 094F298620EF372500772723 /* Build configuration list for PBXNativeTarget "SYPopTip" */;
 			buildPhases = (
+				4A5971C235FFFAE1976BBE8B /* [CP] Check Pods Manifest.lock */,
 				094F295620EF372500772723 /* Sources */,
 				094F295720EF372500772723 /* Frameworks */,
 				094F295820EF372500772723 /* Resources */,
+				C4DE49D317394989CF1ABF22 /* [CP] Embed Pods Frameworks */,
+				96705DDC938B7D1DECCFFBD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 094F298920EF372500772723 /* Build configuration list for PBXNativeTarget "SYPopTipTests" */;
 			buildPhases = (
+				210746059B19567E06C60581 /* [CP] Check Pods Manifest.lock */,
 				094F296E20EF372500772723 /* Sources */,
 				094F296F20EF372500772723 /* Frameworks */,
 				094F297020EF372500772723 /* Resources */,
+				DDA365268FF92E8735DC8947 /* [CP] Embed Pods Frameworks */,
+				412758F8FF88DF6A0593D97A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 094F298C20EF372500772723 /* Build configuration list for PBXNativeTarget "SYPopTipUITests" */;
 			buildPhases = (
+				16B43754A572B4C36F9745D8 /* [CP] Check Pods Manifest.lock */,
 				094F297920EF372500772723 /* Sources */,
 				094F297A20EF372500772723 /* Frameworks */,
 				094F297B20EF372500772723 /* Resources */,
+				7F55B6D3B0D42D01DA8E2BBD /* [CP] Embed Pods Frameworks */,
+				A4A800F63261FAF304A50AA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +309,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16B43754A572B4C36F9745D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYPopTipUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		210746059B19567E06C60581 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYPopTipTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		412758F8FF88DF6A0593D97A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopTipTests/Pods-SYPopTipTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A5971C235FFFAE1976BBE8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SYPopTip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F55B6D3B0D42D01DA8E2BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopTipUITests/Pods-SYPopTipUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96705DDC938B7D1DECCFFBD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopTip/Pods-SYPopTip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A800F63261FAF304A50AA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopTipUITests/Pods-SYPopTipUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4DE49D317394989CF1ABF22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopTip/Pods-SYPopTip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA365268FF92E8735DC8947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYPopTipTests/Pods-SYPopTipTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		094F295620EF372500772723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -292,9 +464,6 @@
 				094F296220EF372500772723 /* ViewController.m in Sources */,
 				094F296D20EF372500772723 /* main.m in Sources */,
 				094F295F20EF372500772723 /* AppDelegate.m in Sources */,
-				094E368620FC937900FA7167 /* SYPopTip+Draw.m in Sources */,
-				094E368720FC937900FA7167 /* SYPopTip+Transitions.m in Sources */,
-				094E368820FC937900FA7167 /* SYPopTip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +624,7 @@
 		};
 		094F298720EF372500772723 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD909E276988250579C1B80 /* Pods-SYPopTip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +638,7 @@
 		};
 		094F298820EF372500772723 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 887834D4ACC1380B770CC563 /* Pods-SYPopTip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +652,7 @@
 		};
 		094F298A20EF372500772723 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7DCE8513BD3A9384929364 /* Pods-SYPopTipTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +667,7 @@
 		};
 		094F298B20EF372500772723 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398C6301EC264E7C1712651F /* Pods-SYPopTipTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +682,7 @@
 		};
 		094F298D20EF372500772723 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F25908DE74C66AC2109FACF /* Pods-SYPopTipUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SYPopTipUITests/Info.plist;
@@ -522,6 +696,7 @@
 		};
 		094F298E20EF372500772723 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C699345FD2EA87A1AA4E86 /* Pods-SYPopTipUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SYPopTipUITests/Info.plist;
