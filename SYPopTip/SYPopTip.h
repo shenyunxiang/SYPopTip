@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 @class SYPopTipConfig;
 /**
- direction of the poptip
+  SYPopTip的方向
  */
 typedef NS_ENUM(NSInteger, SYPopTipDirection) {
     SYPopTipDirection_up = 0,
@@ -19,7 +19,9 @@ typedef NS_ENUM(NSInteger, SYPopTipDirection) {
     SYPopTipDirection_right,
     SYPopTipDirection_none
 };
-
+/**
+ SYPopTip显示的动画方式
+ */
 typedef NS_ENUM(NSInteger, SYPopTipShowAnimation) {
     Show_none  = 0,
     Show_scale,
@@ -28,7 +30,9 @@ typedef NS_ENUM(NSInteger, SYPopTipShowAnimation) {
     Show_custom,
     
 };
-
+/**
+ SYPopTip消失的动画方式
+ */
 typedef NS_ENUM(NSInteger, SYPopTipHideAnimation) {
     Hide_none = 0,
     Hide_scale ,
@@ -53,9 +57,9 @@ typedef NS_ENUM(NSInteger, SYPopTipActionAnimation) {
 @property(nonatomic, strong) UIColor                        *textColor;
 
 @property(nonatomic, assign) BOOL                           shouldShowMask;
+@property(nonatomic, strong, readonly) UIView               *backgroundMask;
 @property(nonatomic, strong) UIColor                        *maskColor;
 
-@property(nonatomic, strong, readonly) UIView               *backgroundMask;
 @property(nonatomic, assign, readonly) CGRect               from;
 @property(nonatomic, weak, readonly) UIView                 *containerView;
 @property(nonatomic, assign, readonly) SYPopTipDirection    direction;
@@ -126,7 +130,9 @@ typedef NS_ENUM(NSInteger, SYPopTipActionAnimation) {
 @property(nonatomic, assign) CGSize             arrowSize;
 @property(nonatomic, assign) CGFloat            arrowRadius;
 
-
+/*
+ *  阴影相关属性
+ */
 @property(nonatomic, strong) UIColor            *shadowColor;
 @property(nonatomic, assign) CGSize             shadowOffset;
 @property(nonatomic, assign) CGFloat            shadowRadius;
